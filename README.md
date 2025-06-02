@@ -1,7 +1,46 @@
-Predicción de enfermedades respiratorias en la Provincia de Tierra del Fuego
+# Predicción de enfermedades respiratorias en la Provincia de Tierra del Fuego
 ==============================
+## Contexto del problema
+Tierra del Fuego, ubicada en el extremo austral de Argentina, presenta condiciones climáticas 
+extremas, con temperaturas frías durante gran parte del año y limitada accesibilidad a centros 
+urbanos y de salud. Estas características generan una alta vulnerabilidad frente a enfermedades 
+respiratorias, especialmente en poblaciones sensibles como niños y adultos mayores. Anticipar la 
+cantidad de casos semanales permite optimizar la distribución de insumos, personal médico y 
+camas hospitalarias, evitando saturaciones del sistema sanitario.
 
-los habitantes de la provincia de Tierra del Fuego son muy vulnerables a enfermedades respiratorias debido a las condiciones climáticas. Predecir la cantidad de casos nos permitiría evitar la saturación del sistema sanitario.
+## Objetivos específicos
+-Identificar patrones temporales y estacionales de enfermedades respiratorias. 
+-Detectar semanas críticas en cuanto a número de casos.
+-Evaluar qué grupos etarios y enfermedades presentan mayor incidencia estacional. 
+-Probar distintos modelos de Aprendizaje Automático y comparar su rendimiento. 
+-Mejorar la planificación y prevención sanitaria mediante predicciones automatizadas.
+
+## Características del Dataset
+
+Se utilizará un dataset nacional obtenido de la página datos.salud.gob.ar que incluye registros de enfermedades respiratorias por provincia entre los años 2022 y 2024. Para este proyecto, se va a filtrar exclusivamente la información correspondiente a Tierra del Fuego, dejando un total de 3135 registros.
+
+Las variables son las siguientes:
+
+***departamento_id***: id del departamento.
+
+***departamento_nombre***: nombre del departamento (Río Grande, Ushuaia).
+
+***provincia_id***: id de la provincia.
+
+***provincia_nombre***: nombre de la provincia.
+
+***año***: año de registro de los casos.
+
+***semanas_epidemiologicas***: identifica la estacionalidad.
+
+***evento_nombre***: nombre de la enfermedad respiratoria.
+
+***grupo_edad_id:*** id del grupo etario.
+
+***grupo_edad_desc***: rangos etarios.
+
+***cantidad_casos***: cantidad de casos registrados.
+
 
 Project Organization
 ------------
