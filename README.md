@@ -21,7 +21,7 @@ camas hospitalarias, evitando saturaciones del sistema sanitario.
 
 ## Características del Dataset
 
-Se utilizará un dataset nacional obtenido de la página datos.salud.gob.ar que incluye registros de enfermedades respiratorias por provincia entre los años 2022 y 2024. Para este proyecto, se va a filtrar exclusivamente la información correspondiente a Tierra del Fuego, dejando un total de 3135 registros.
+Se utilizará un dataset nacional obtenido de la página [datos.salud.gob.ar] (http://datos.salud.gob.ar/dataset/vigilancia-de-infecciones-respiratorias-agudas/archivo/5ffccc51-83a5-40a7-af7d-6d2071ed04ab) que incluye registros de enfermedades respiratorias por provincia entre los años 2022 y 2024. Para este proyecto, se va a filtrar exclusivamente la información correspondiente a Tierra del Fuego, dejando un total de 3135 registros.
 
 Las variables son las siguientes:
 
