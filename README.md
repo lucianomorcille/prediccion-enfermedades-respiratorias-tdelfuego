@@ -10,9 +10,13 @@ camas hospitalarias, evitando saturaciones del sistema sanitario.
 
 ## Objetivos específicos
 -Identificar patrones temporales y estacionales de enfermedades respiratorias. 
+
 -Detectar semanas críticas en cuanto a número de casos.
--Evaluar qué grupos etarios y enfermedades presentan mayor incidencia estacional. 
--Probar distintos modelos de Aprendizaje Automático y comparar su rendimiento. 
+
+-Evaluar qué grupos etarios y enfermedades presentan mayor incidencia estacional.
+
+-Probar distintos modelos de Aprendizaje Automático y comparar su rendimiento.
+
 -Mejorar la planificación y prevención sanitaria mediante predicciones automatizadas.
 
 ## Características del Dataset
